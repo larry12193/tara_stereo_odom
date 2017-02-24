@@ -1,0 +1,14 @@
+Stereo Odometry for Tara Stereo Camera
+
+To build project
+
+cmake .
+make
+
+Contact Lawrence Papincak at larry12193@gmail.com to get access to test data sets to run
+
+To use
+
+./stereo_viso /path/to/rectified/images >> /path/to/pose.txt
+
+The rectified images are named specifically, look in stereo_viso.cpp @line 72-74 to get idea of how this is done. The file format that is compiled to understand is 'L_######.png' and 'R_######.png' for left and right frames, respectively. Change as you see fit for different naming scheme.
