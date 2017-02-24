@@ -1,5 +1,7 @@
 Stereo Odometry for Tara Stereo Camera
 
+This package is built on the libviso2 visual odometry package that can be found at http://www.cvlibs.net/software/libviso/. Install package in your home folder for out of the box compatibility with this implementation. Else, change the source directoriy in the CMake file.
+
 To build project
 
 cmake .
